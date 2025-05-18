@@ -1,42 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-            Registration Form
-        </title>
-        <link rel="stylesheet" href="./styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ballises - Glasvezelinstallatie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Ballises - Glasvezelinstallatie</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Over ons</a></li>
+                <li><a href="#services">Diensten</a></li>
+                <li><a href="#projects">Projecten</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Installatie van hogesnelheidsglasvezel</h2>
+        <p>Verbind uw wereld met betrouwbaar en razendsnel internet.</p>
+       <!--<a href="#contact" class="cta-button">Get a Quote</a> -->
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Over ons</h2>
+        <p>Bij Ballises zijn we gespecialiseerd in de professionele installatie van glasvezelkabels voor particuliere, zakelijke en industriële klanten. Dankzij jarenlange ervaring garandeert ons team hoogwaardige, efficiënte en veilige installaties die voldoen aan uw connectiviteitsbehoeften.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Diensten</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <h3>Residentiële installatie</h3>
+                <p>Snelle en betrouwbare glasvezelverbindingen voor woningen.</p>
+            </div>
+            <div class="service-item">
+                <h3>Commerciële installatie</h3>
+                <p>Schaalbare oplossingen voor bedrijven van elke omvang.</p>
+            </div>
+            <div class="service-item">
+                <h3>Onderhoud en ondersteuning</h3>
+                <p>Doorlopende ondersteuning om uw netwerk soepel te laten functioneren.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (New) -->
+    <section id="projects" class="projects">
+        <h2>Onze Projecten</h2>
+        <div class="project-grid">
+            <div class="project-item">
+                <img src="photo1.jpg" alt="Construction Site 1">
+                <p></p>
+            </div>
+            <div class="project-item">
+                <img src="photo2.jpg" alt="Construction Site 2">
+                <p></p>
+            </div>
+            <div class="project-item">
+                <img src="photo3.jpg" alt="Construction Site 3">
+                <p></p>
+            </div>
+            <div class="project-item">
+                <img src="photo4.jpg" alt="Construction Site 4">
+                <p></p>
+            </div>
+            <div class="project-item">
+                <img src="photo5.jpg" alt="Construction Site 1">
+                <p></p>
+            </div>
+            <div class="project-item">
+                <img src="photo6.jpg" alt="Construction Site 2">
+                <p></p>
+            </div>
+            <div class="project-item">
+                <img src="photo7.jpg" alt="Construction Site 3">
+                <p></p>
+            </div>
+            <div class="project-item">
+                <img src="photo8.jpg" alt="Construction Site 4">
+                <p></p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        Antem Resit
+
+        <br>
+        +31634611200
+        <br>
+        Hofstraat 00016 9079MD 
+        <br>
+        St.-Jacobiparochie
+        <br> 
+        NEDERLAND
+        <!-- <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="form-message"></p>-->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>©2025 Ballises - Glasvezelinstallatie. Website by Kiamil.</p>
         
-        
-       <header><h1>Registration Form</h1>
-           <ul>
-               <li><a href="./main.html"> Main Page</a></li>
-               <li><a href="./randm.html">Random number generator</a></li>
-               <li> <a href="./button.html">Page color changer</a></li>
-           </ul>
-           </header>
-        
-        <form method="POST" target="">
-            <fieldset>
-        <label>Name <input type="text" name="name" placeholder="Please enter... " ></label>
-        <label>Email <input type="text" name="email"placeholder="Please enter... "  ></label>
-        <label>Age <input type="number" name="age"placeholder="Please enter... " min="0" max="120"  ></label>
-        <label>Do you accept the terms? <input type="checkbox" name="submit" ></label>
-        <label>  <input type="submit" name="submit"></label>
-        
-        
-    </fieldset>
+    </footer>
 
-    </form>
-
-
-    </body>
-    <footer><p>All rights reserved - Thracianus 2022</p></footer>
-
-    
-
-
-
+    <script src="script.js"></script>
+</body>
 </html>
